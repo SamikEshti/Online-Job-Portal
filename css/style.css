@@ -1,0 +1,127 @@
+body{
+    margin: 50px;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+/* ===== Header design ===== */
+.header{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+}
+/* ===== Menu design ===== */
+.menu{
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    background-color: grey;
+}
+/* ===== texts design ===== */
+.texts{
+    font-size: 25px;
+    color: darkgrey;
+}
+
+/* ===== this is a standard table design ===== */
+.tbl-std{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+
+}
+.tbl-std td, .tbl-std th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.tbl-std tr:nth-child(even){background-color: #f2f2f2;}
+
+.tbl-std tr:hover {background-color: #ddd;}
+
+.tbl-std th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ===== From style===== */
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=password], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=password]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* ===== Delete button design ===== */
+.btn-delete{
+    padding: 5px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* ===== Submit button design ===== */
+.btn-submit{
+    padding: 10px;
+    background-color: skyblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+/* ===== Field design ===== */
+.field{
+    background-color: white;
+}
